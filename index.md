@@ -20,7 +20,7 @@ layout: wso2-theme-home
    <div class="container">
       <div class="row cHighlightedRow">
          <div class="col-sm-12 col-md-12 col-lg-4">
-            <a href="/handling-tickets" class="cProductLink imagelink">
+            <a href="//madhuramendis.github.io/support/handling-tickets" class="cProductLink imagelink">
                <div class="cDarkGreyBG cHighlighted cHighlightedReducePadding cSupportLinks">
                   <div class="cCardHeader">
                      <h3 class="cReducedBottomMargin">Handling Tickets</h3>
@@ -36,7 +36,7 @@ layout: wso2-theme-home
             </a>
          </div>
          <div class="col-sm-12 col-md-12 col-lg-4">
-            <a href="/escalations" class="cProductLink imagelink ">
+            <a href="//madhuramendis.github.io/support/escalations" class="cProductLink imagelink ">
                <div class="cDarkGreyBG cHighlighted cHighlightedReducePadding cSupportLinks">
                   <div class="cCardHeader">
                      <h3 class="cReducedBottomMargin">Escalations</h3>
@@ -55,7 +55,7 @@ layout: wso2-theme-home
             </a>
          </div>
          <div class="col-sm-12 col-md-12 col-lg-4">
-            <a href="/sla" class="cProductLink imagelink">
+            <a href="//madhuramendis.github.io/support/sla" class="cProductLink imagelink">
                <div class="cDarkGreyBG cHighlighted cHighlightedReducePadding cSupportLinks">
                   <div class="cCardHeader">
                      <h3 class="cReducedBottomMargin">SLA</h3>
@@ -71,7 +71,7 @@ layout: wso2-theme-home
             </a>
          </div>
          <div class="col-sm-12 col-md-12 col-lg-4">
-            <a href="/identity-and-access-management" class="cProductLink imagelink">
+            <a href="//madhuramendis.github.io/support/identity-and-access-management" class="cProductLink imagelink">
                <div class="cDarkGreyBG cHighlighted cHighlightedReducePadding cSupportLinks">
                   <div class="cCardHeader">
                      <h3 class="cReducedBottomMargin">Protocol</h3>
@@ -90,7 +90,7 @@ layout: wso2-theme-home
             </a>
          </div>
          <div class="col-sm-12 col-md-12 col-lg-4">
-            <a href="/identity-and-access-management" class="cProductLink imagelink">
+            <a href="//madhuramendis.github.io/support/identity-and-access-management" class="cProductLink imagelink">
                <div class="cDarkGreyBG cHighlighted cHighlightedReducePadding cSupportLinks">
                   <div class="cCardHeader">
                      <h3 class="cReducedBottomMargin">Training</h3>
@@ -109,7 +109,7 @@ layout: wso2-theme-home
             </a>
          </div>
          <div class="col-sm-12 col-md-12 col-lg-4">
-            <a href="/integration" class="cProductLink imagelink">
+            <a href="//madhuramendis.github.io/support/integration" class="cProductLink imagelink">
                <div class="cDarkGreyBG cHighlighted cHighlightedReducePadding cSupportLinks">
                   <div class="cCardHeader">
                      <h3 class="cReducedBottomMargin">Tools</h3>
