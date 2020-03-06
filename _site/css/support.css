@@ -1,0 +1,210 @@
+* {
+  transition:all .5s ease 0s;
+}
+body {
+	background-image: url(//wso2.cachefly.net/wso2/sites/all/2020-theme/images/subscription-header-bg-01.jpg);
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-position: center top -75px;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.cSupportLinks {
+  margin-bottom: 30px;
+}
+
+.cContactUsMenuLink a {
+    font-weight:700;
+    color:#ff7300 !important;
+  }
+.cContactUsMenuLink {
+display:none;
+}
+.cContactUsMenuLink.cMenuScroll {
+  display:block;
+}
+
+.cContactUsMenuButton.cMenuScroll {
+display:none;
+}
+  section.cMenu { background-color: #fff; position: fixed; top: 0; width: 100%; border-bottom: solid 1px #bbb; z-index: 999; height: 60px; padding: 0; }
+  section.cMenu .row { padding: 0; background-color: transparent; }
+  section.cMenu .bg-light { background-color: #fff !important; padding-left: 0; padding-right: 0; margin-left: 1rem; margin-right: 1rem; }
+  section.cMenu .cLogo { padding-top: .6rem; padding-right: 0; margin-right: 0; border-bottom: solid 2px #292929 !important; height: 59px; display: inline-block; }
+  section.cMenu a.navbar-brand img { width: 88px; }
+  section.cMenu div.cNavlinks { border-bottom: solid 2px #ff7300; padding-left: 0; padding-right: 0; }
+  section.cMenu .navbar-brand { margin-right: 0; padding-left: 0; padding-right: 0; }
+  /* section.cMenu .navbar-brand:hover { padding-top: .8rem; padding-right: 0; margin-right: 0; border-bottom: solid 2px #292929 !important; height: 59px; } */
+  section.cMenu .navbar-nav { margin-left: 1rem; margin-top: 0; }
+  section.cMenu .navbar .nav-item { text-align: left; }
+  section.cMenu .nav-link { padding: 1rem 1rem 1rem; color: #292929; text-decoration: none; }
+  .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus { border: 0 !important; box-shadow: none; outline: inherit; }
+  a.dropdown-toggle:focus { border: 0 !important; }
+  .navbar-light .navbar-nav .nav-link { color: #222; }
+  .navbar .dropdown-menu { top: 56px; border-bottom: solid 2px #ff7300; padding: 0 5rem 1.5rem; border-radius: 0; -webkit-box-shadow: 0px 3px 4px 2px rgba(0,0,0,0.2); -moz-box-shadow: 0px 3px 4px 2px rgba(0,0,0,0.2); box-shadow: 0px 3px 4px 2px rgba(0,0,0,0.2); }
+  .navbar .dropdown-menu .nav-link  { padding: .35rem 0; }
+  section.cMenu ul.cSubmenu { padding: 0; margin: 0; }
+  section.cMenu h5 { font-weight: 700; }
+  section.cMenu ul.cSubmenu .nav-link:hover { color: #ff7300!important; background-color: transparent; }
+
+  section.cMenu .cSelected {width: 0; height: 0; border-style: solid; border-width: 10px 12px 0 12px; border-color: #ff7300 transparent transparent transparent; line-height: 0px; _border-color: #ff7300 #000000 #000000 #000000; _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000'); display: inline-block; float: left; }
+  section.cMenu .cSelected.cProducts { margin-left: 30px; }
+  section.cMenu .cSelected.cCustomers { margin-left: 225px; }
+  section.cMenu .cSelected.cPartners { margin-left: 300px; }
+  section.cMenu .cSelected.cCompany { margin-left: 325px; }
+
+
+  section.cMenu .cSelected.cLearn { margin-right: 165px; float: right; }
+  section.cMenu .cSelected.cLearn.cMenuScroll { margin-right: 265px; float: right; }
+
+
+
+
+  section.cMenu .cSelected.cSupport { margin-right: 75px; float: right; background-image: none; background-color: transparent; }
+  section.cMenu .cSelected.cSupport.cMenuScroll { margin-right: 175px; float: right; background-image: none; background-color: transparent; }
+
+
+  section.cMenu .cSelected.cProfile { margin-right: 0px; float: right; background-image: none; background-color: transparent; }
+
+  .navbar-expand-lg .navbar-nav .nav-link { padding-right: 0.8rem; padding-left: 0.8rem; line-height: 25px;}
+  section.cMenu ul.cSubmenu .nav-link { padding-left: 0; padding-right: 0; color: #292929 !important; }
+  section.cMenu .cMenuIcons { width: 20px; }
+  section.cMenu .cRightLinks { margin-right: 0 !important; margin-top: 0; }
+  section.cMenu .cRightLinks a.imagelink { line-height: 18px; padding: .9rem .75rem; margin-top: 4px; }
+  section.cMenu  a.cSupportPortalButton { text-decoration: none; background-color: #333; color: #fff;  border: solid 1px #292929; padding: .5rem 1.5rem; text-transform: uppercase; margin: .5rem 0 0;  display: inline-block; }
+  section.cMenu  a.cSupportPortalButton:hover { background-color: #ccc; color: #292929;  border: solid 1px #292929; padding: .5rem 1.5rem; text-decoration: none; }
+
+  .dropdown-toggle:hover { border: solid 0px #fff; !important; box-shadow: none; background-color: #ffffff; }
+
+  .cHighlightedRow { display: flex; }
+  .cSectionBelowHighlight { margin-top: 0; }
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 { float: left; }
+  .cSiteCTA .cRequestDemo { display: inline-block; margin-right: -15px; }
+
+  .cSiteCTA a.cMenuContactButton { font-size: 1.1rem; padding: 8px 20px; color: #fff; background-color: #ff7300; font-weight: 700; margin-right: 0px; display: inline-block; text-transform: uppercase; letter-spacing: .05rem; transition: all .2s; text-decoration: none; text-align: center; }
+  .cSiteCTA a.cMenuContactButton.cDemo:hover { border: 0; background-color: #222; }
+
+  .dropdown-menu.cProfilemenu { width:350px; margin:auto; margin-right:0; top: 58px; padding: 0 2rem 1.5rem; }
+  .cWhiteBG.cSubmenuDiv.cProfileSubdiv { margin-left:0; }
+  .Exp-serach { position: absolute; width: 0%; min-width: 50px; height: 50px; float: right; overflow: hidden; -webkit-transition: width 0.3s; -moz-transition: width 0.3s; transition: width 0.3s; -webkit-backface-visibility: hidden; right:0; bottom:7px; }
+  .ExpInput { background: #fff none repeat scroll 0 0; border: medium none; font-size: 20px; color: #444; height: 36px; margin: 0; outline: medium none; padding: 0 0 0 20px; position: absolute; right: 0; top: 7px; z-index: 10; width:450px !important; font-size: 1rem; line-height: 1.6rem; color:#292929; }
+  input[type="search"].ExpInput { -webkit-appearance: none; -webkit-border-radius: 0px; }
+  .ExpIcon, .Expbtn  { width: 36px; height: 36px; display: block; position: absolute; right: 0; top: 7px; padding: 0; margin: 0; line-height: 50px; text-align: center; cursor: pointer; }
+  .Expbtn { background: #fff; /* IE needs this */ -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */ filter: alpha(opacity=0); /* IE 5-7 */ opacity: 0; color: transparent; color:red; border: none; outline: none; z-index: -1; }
+  .ExpIcon { z-index: 90; font-size: 22px; font-family: 'icomoon'; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; -webkit-font-smoothing: antialiased; line-height: 46px; }
+  .ExpIcon:before { content: ""; }
+  .Exp-serach.Exp-serach-open, .no-js .Exp-serach { width: 100%; }
+  .Exp-serach.Exp-serach-open .ExpIcon, .no-js .Exp-serach .ExpIcon { background: #cccccc; color: #fff; z-index: 11; }
+  .Exp-serach.Exp-serach-open .Expbtn, .no-js .Exp-serach .Expbtn { }
+  .Exp-serach.Exp-serach-open .ExpInput { border:1px solid #cccccc; }
+  .nav-item.dropdown.cProfileList { margin-right:37px; }
+
+  @media screen and (max-width: 992px) {
+    section.cMenu { height: 65px; border-color: #ff7300; }
+    section.cMenu .navbar-brand { border-bottom: solid 0 !important; }
+    .navbar-light .navbar-toggler { color: rgba(0, 0, 0, 0.5); border-color: rgba(0, 0, 0, 0.75); margin-top: 4px; }
+    section.cMenu .cLogo { border-bottom: 0 !important; }
+    section.cMenu div.cNavlinks { margin-top: 2px; margin-left: -31px; margin-right: -31px; padding-top: 10px; background-color: #efefef; }
+    section.cMenu .nav-link { padding: .5rem 1rem .5rem; }
+    section.cMenu .navbar-nav { margin: 0 1rem !important; }
+    section.cMenu .navbar-nav li { border-bottom: solid 1px #999; margin: 0; }
+    section.cMenu .cRightLinks a.imagelink { margin-top: 0; }
+    .nav-item.dropdown.cProfileList { margin-right: 0; border-bottom: 0; }
+    .navbar .dropdown-menu { padding: 0 0 20px; }
+    section.cMenu .cSelected { display: none; }
+    .ExpInput { width:100% !important; height: 46px; top:0; }
+    .dropdown-toggle:hover { background-color: transparent; }
+    .dropdown-menu.cProfilemenu { width: auto; padding-bottom: 0; }
+    .navbar { padding-bottom: 0; padding-top: 0; }
+    .Exp-serach { bottom: 10px; }
+    .ExpIcon, .Expbtn { height: 46px; top: 5px; right: 7px; }
+    .Exp-serach.Exp-serach-open .ExpIcon, .no-js .Exp-serach .ExpIcon { right: 0; top: 0; padding: 5px 5px 0; }
+    .cSiteCTAMobile a.cMenuContactButton.cDemo { margin-left: 15px; }
+    .cSiteCTAMobile a.cMenuContactButton { margin-bottom: 15px; font-size: 1.1rem; padding: 8px 20px; color: #fff; background-color: #ff7300; font-weight: 700; margin-right: 0px; display: inline-block; text-transform: uppercase; letter-spacing: .05rem; transition: all .2s; text-decoration: none; text-align: center; }
+    .cSiteCTAMobile a.cMenuContactButton.cDemo:hover { border: 0; background-color: #222; }
+    .cSiteCTAMobile { display: block; }
+    section.cMenu .navbar-nav li.cSiteCTAMobile { border-bottom: 0; }
+    .cSiteCTA { display: none; }
+    .navbar .dropdown-menu { border-bottom: 0; }
+    section.cMenu .cNavlinks { padding-right: 25px; max-height: 85vh; overflow: scroll; }
+    li.cContactUsMenuLink {display:none !important;}
+  }
+
+  .cFooter .cFooterLinks {
+    padding: 1rem 0;
+    margin-top: 1rem;
+    border-top: solid 1px #ff7300;
+  }
+  .cFooter .cFooterLinks ul li.cCopyright {
+    padding-left: 0px;
+    padding-right: 20px;
+  }
+  .cFooter .cFooterLinks ul li {
+    position: relative;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: .85rem;
+    color: #666;
+  }
+.cSupportLinks:hover {
+  background-color: #ff7300;
+}
+.cSupportLinks:hover h3 {
+  color: #fff;
+}
+
+.cSupportLinks h3 {
+font-weight: 400;
+color: #ff7300;
+}
+
+
+  /* CONTENT PAGES */
+
+  body.cContentPage {
+    background-image: none;
+  }
+
+  .cTocContainer {
+    position: fixed;
+    width: 282px;
+  }
+
+
+  .cContentPageIntro {
+    /* padding-bottom: 0; */
+  }
+  .cTocContainer ul {
+padding: 0;
+margin: 0 ;
+  }
+
+  .cTocContainer ul li {
+    list-style: none;
+    background-image: url(/img/link-bg.svg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    padding-right: 30px;
+  }
+
+  .cTocContainer li {
+    padding: 10px 0;
+    border-bottom: 1px solid #909090;
+  }
+  .cTocContainer li:last-child {
+    border: none;
+    padding-bottom: 0;
+  }
+
+  .cInnerPageContentContainer a {
+    color: #ff7300;
+  }
+
+  hr {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
